@@ -151,20 +151,18 @@ footer{
     padding: 100px;
     text-align: center;
 }
-footer div{
-    justify-items: center;
-    text-align: justify;
-    padding: 0px 20px;;
-}
+
 footer a{
     text-decoration: none;
         color: gray;
 
 }
-footer li{
-    display: inline;
-    margin: 0 15px;
+footer ul{
     list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 footer p{
     text-align: center;

@@ -122,3 +122,11 @@ header{
     width: 600px;
     margin-top: 10px;
 }
+
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+    
+}

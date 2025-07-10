@@ -3,6 +3,9 @@ header{
     background-size: cover;
     background-position: center;
 }
+body{
+    background-color: #F5F8FF;
+}
 
 
 .btn{
@@ -64,7 +67,7 @@ header{
     font-weight: 600;
     color: black;
 }
-.gray{
+.gray, .list{
     color: gray;
 }
 .user-item, .user-title{
@@ -92,9 +95,11 @@ header{
 
 .user-card{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     border-radius: 10px;
+    background-color: white;
+    width: 300px;
 }
 
 .user-say{
@@ -113,6 +118,7 @@ header{
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 0px 150px;
+    border-radius: 20px;
 
 
 }
@@ -140,3 +146,27 @@ input[type="text"], input[type="email"], textarea{
 .submit{
     padding: 10px 100px;
 }
+footer{
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+}
+footer div{
+    justify-items: center;
+    text-align: justify;
+    padding: 0px 20px;;
+}
+footer a{
+    text-decoration: none;
+        color: gray;
+
+}
+footer li{
+    display: inline;
+    margin: 0 15px;
+    list-style: none;
+}
+footer p{
+    text-align: center;
+}
+

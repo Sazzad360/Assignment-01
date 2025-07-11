@@ -62,7 +62,7 @@ nav h1{
     justify-content: space-between;
     align-items: center;
     
-    margin: 80px 150px;
+    margin: 150px 150px;
 }
 .action h2{
     font-size: 42px;
@@ -124,6 +124,9 @@ nav h1{
     height: 50px;
     border-radius: 50%;
 }
+.user{
+    margin: 150px 150px;
+}
 .card{
     display: flex;
     justify-content: center;
@@ -131,9 +134,14 @@ nav h1{
     
 }
 
+.user-say .say{
+    font-size: 42px;
+    font-weight: bold;
+}
+
 .user-card{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     border-radius: 10px;
     background-color: white;
@@ -147,6 +155,16 @@ nav h1{
 .user-say h1{
     text-align: center;
     margin-bottom: 20px;
+}
+
+.reveiwer-name{
+    font-weight:700;
+    color: #757575;
+    margin: 0;
+}
+.reveiwer-date{
+    color: #B3B3B3;
+    margin: 0;
 }
 
 .focus{

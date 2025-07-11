@@ -33,12 +33,16 @@ body{
     color: #000;
     cursor: pointer;
 }
-
+nav h1 a{
+    text-decoration: none;
+    color: blue;
+}
 nav h1{
     font-size: 34px;
     font-weight: 900;
-    color: blue;
+    
 }
+
 
 .navbar{
     display: flex;

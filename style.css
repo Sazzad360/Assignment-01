@@ -25,6 +25,8 @@ body{
     border: none;
     border-radius: 5px;
     color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
 .btn:hover{
     background-color: yellowgreen;
@@ -48,10 +50,11 @@ nav h1{
 .banner{
     text-align: center;
     color: black;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 .banner-description{
-    font-size: 2.5rem;
+    font-size: 65px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 .action{

@@ -78,7 +78,7 @@ nav h1{
 .user{
     
     margin: 0px 150px;
-    background-color: rgb(201, 206, 241);
+    background-color: #4E47FF10;
     padding: 60px;
     border-radius: 20px;
     
@@ -87,13 +87,23 @@ nav h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: auto;
-    color:hwb(240 5% 5%)
+    color: #4E47FF;
     
 }
 .user-title{
-    font-weight: 600;
+    font-size: 38px;
+    font-weight: bold;
     color: black;
+    margin-bottom: 40px;
+}
+.user-item h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.user-item p{
+    font-size: 20px;
+    margin-top: 0;
 }
 .gray, .list{
     color: gray;
